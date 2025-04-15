@@ -26,4 +26,9 @@ cin >> nama[i];
         cout << "Nama Mahasiswa ke-" << i+1 << " = " << nama[i]
         << endl;
     }
+
+    cout << endl;
+    for (int i = 0; i < 3; i++){
+        cout << "Data Mahasiswa ke-" << i+1 << " = " << nama[i] << endl;
+    }
 }
